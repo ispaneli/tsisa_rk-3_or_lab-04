@@ -6,10 +6,10 @@ int main() {
     Population pop;
     pop.generation_first_population();
 
-    std::cout << "|  №  |     X     |     Y     |    FIT    |    Max    |Average fit|" << std::endl;
+    std::cout << "|  №  |     X     |     Y     |    FIT    |    MAX    |  AVERAGE  |" << std::endl;
     std::cout << "+=====+===========+===========+===========+===========+===========+" << std::endl;
 
-    for (size_t i = 0; i < 100; ++i) {
+    for (size_t i = 0; i < 101; ++i) {
 
         size_t IndexOfBest = pop.get_index_of_best();
         double GlobalFit = pop.get_global_fit();
