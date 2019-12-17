@@ -11,7 +11,6 @@ int main() {
 
     for (size_t i = 0; i < 101; ++i) {
 
-        size_t IndexOfBest = pop.get_index_of_best();
         double GlobalFit = pop.get_global_fit();
 
         for (size_t j = 0; j < pop.get_size(); j++) {
